@@ -5,24 +5,24 @@ get-    "/articles"
 //delete all
 delete-   "/articles"
 
-//post specific
+//post a specific article
 //(req.body.title, req.body.content)
 post-   "/articles"
 
 
-//get specific
+//get a specific article
 get-    "/articles/:id"
 
 
-//replace specific
+//replace a specific article
 //(req.body.title, req.body.content)
 put-    "/articles/:id"
 
 
-//update specific
+//update a specific article
 //[req.body.title, req.body.content]
 patch-    "/articles/:id"
 
-//delete specific
+//delete a specific article
 delete-   "/articles/:id"
 
